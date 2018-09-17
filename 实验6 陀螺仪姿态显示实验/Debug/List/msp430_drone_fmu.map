@@ -1,0 +1,2232 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V6.5.1.95                                          #
+#                                                                              #
+#           Link time     =  17/Sep/2018  16:29:57                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\List\msp430_drone_ #
+#                            fmu.map"                                          #
+#           Output file 1 =  "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Exe\msp430_drone_f #
+#                            mu.d43"                                           #
+#                            Format: ubrof10                                   #
+#                            UBROF version 10.0.6                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  -f                                                #
+#                            C:\Users\Yanzinan\AppData\Local\Temp\EW9E2.tmp    #
+#                            ("G:\MSP430_and_F150_Textbook\附件目录\4.实验代码 #
+#                            \实验6 陀螺仪姿态显示实验\Debug\Obj\adc10_a.r43"  #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\adc12_a.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\aes.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\battbak.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\board.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\comp_b.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\crc.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\ctsd16.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\dac12_a.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\data_filter.r4 #
+#                            3"                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\data_type.r43" #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\dbg.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\dma.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_a_spi.r4 #
+#                            3"                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_a_uart.r #
+#                            43"                                               #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_b_i2c.r4 #
+#                            3"                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_b_spi.r4 #
+#                            3"                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\flashctl.r43"  #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\gpio.r43"      #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\i2c.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\iic.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\imu.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\kalman.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\lcd_b.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\ldopwr.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\led.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\main.r43"      #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\motor.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\mpu6050.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\mpu60502.r43"  #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\mpy32.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\myMath.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\nrf24l01.r43"  #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\oa.r43"        #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\pmap.r43"      #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\pmm.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\port_int.r43"  #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\ram.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\ref.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\rtc_a.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\rtc_b.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\rtc_c.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\sd24_b.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\sfr.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\sysctl.r43"    #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\tec.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\timer.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\timer_a.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\timer_b.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\timer_d.r43"   #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\tlv.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\twi_master.r43 #
+#                            "                                                 #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\ucs.r43"       #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\usart.r43"     #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\usci_a_spi.r43 #
+#                            "                                                 #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\usci_a_uart.r4 #
+#                            3"                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\usci_b_i2c.r43 #
+#                            "                                                 #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\usci_b_spi.r43 #
+#                            "                                                 #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Obj\wdt_a.r43"     #
+#                            -o                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\Exe\msp430_drone_f #
+#                            mu.d43"                                           #
+#                            -l                                                #
+#                            "G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\ #
+#                            实验6 陀螺仪姿态显示实验\Debug\List\msp430_drone_ #
+#                            fmu.map"                                          #
+#                            -xms -IG:\IAR_For_MSP430\430\LIB\ -f              #
+#                            G:\IAR_For_MSP430\430\config\linker\lnk430f5529.x #
+#                            cl                                                #
+#                            (-cmsp430 -D?CPU30_OFFSET=2 -QCODE_I=CODE_ID      #
+#                            -QTLS16_I=TLS16_ID -D__iar_HWMUL=4C0              #
+#                            -Z(CONST)INFO=1800-19FF                           #
+#                            -Z(CONST)INFOA=1980-19FF                          #
+#                            -Z(CONST)INFOB=1900-197F                          #
+#                            -Z(CONST)INFOC=1880-18FF                          #
+#                            -Z(CONST)INFOD=1800-187F                          #
+#                            -Z(DATA)USBRAM=1C00-23FF                          #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I=2400-4 #
+#                            3FF                                               #
+#                            -Z(DATA)DATA16_HEAP+_DATA16_HEAP_SIZE             #
+#                            -Z(DATA)CODE_I                                    #
+#                            -Z(DATA)DATA20_I,DATA20_Z,DATA20_N,DATA20_HEAP+_D #
+#                            ATA20_HEAP_SIZE                                   #
+#                            -Z(DATA)CSTACK+_STACK_SIZE#                       #
+#                            -Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHEC #
+#                            KSUM=4400-FF7F                                    #
+#                            -Z(CODE)CSTART,ISR_CODE,CODE16=4400-FF7F          #
+#                            -P(CODE)CODE=4400-FF7F,10000-243FF                #
+#                            -Z(CONST)DATA20_C,DATA20_ID,CODE_ID=4400-FF7F,100 #
+#                            40-243FF                                          #
+#                            -Z(CODE)INTVEC=FF80-FFFF                          #
+#                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
+#                            G:\IAR_For_MSP430\430\config\linker\multiplier32. #
+#                            xcl                                               #
+#                            (-e?Mul8Hw=?Mul8 -e?Mul16Hw=?Mul16                #
+#                            -e?Mul16to32uHw=?Mul16to32u                       #
+#                            -e?Mul16to32sHw=?Mul16to32s -e?Mul32Hw32=?Mul32   #
+#                            -e?Mul64Hw32=_Mul64i                              #
+#                            -e?Mul32u32uto64iHw32=_Mul32u32uto64i             #
+#                            -e?Mul32fHw32=_Mul32f                             #
+#                            -e_Mul64fHw32Ptr=_Mul64fPtr) -D_STACK_SIZE=A0     #
+#                            -rt                                               #
+#                            G:\IAR_For_MSP430\430\lib\dlib\dl430xlsfn.r43     #
+#                            -e_PrintfLarge=_Printf -e_ScanfLarge=_Scanf       #
+#                            -D_DATA16_HEAP_SIZE=A0 -s __program_start         #
+#                            -D_DATA20_HEAP_SIZE=50)                           #
+#                                                                              #
+#                           Copyright (C) 1987-2016 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           47E2  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __code_model               = large
+  __core                     = 430X
+  __data_model               = small
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 32
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                  There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _DATA20_HEAP_SIZE       0050 
+           _DATA16_HEAP_SIZE       00A0 
+           _STACK_SIZE             00A0 
+           __iar_HWMUL             04C0            ?Mul32fHw32 (?Mul32fHw32)
+                                                   privateUCSSourceClockFromDCO (ucs)
+           ?CPU30_OFFSET           0002 
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\adc10_a.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\adc12_a.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\aes.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\battbak.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\board.r43
+  PROGRAM MODULE, NAME : board
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 2794 - 279B (0x8 bytes), align: 1
+  Segment part 2.             Intra module refs:   System_Clock_Init
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           Clk_ACLK                2794 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 279C - 27A3 (0x8 bytes), align: 1
+  Segment part 3.             Intra module refs:   System_Clock_Init
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           Clk_SMCLK               279C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27A4 - 27AB (0x8 bytes), align: 1
+  Segment part 4.             Intra module refs:   System_Clock_Init
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           Clk_MCLK                27A4 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6122 - 6219 (0xf8 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           System_Clock_Init       6122            main (main)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\comp_b.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\crc.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\ctsd16.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\dac12_a.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\data_filter.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\data_type.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\dbg.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\dma.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_a_spi.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_a_uart.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_b_i2c.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\eusci_b_spi.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\flashctl.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\gpio.r43
+  PROGRAM MODULE, NAME : gpio
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_C
+  Relative segment, address: 4400 - 441B (0x1c bytes), align: 1
+  Segment part 2.             Intra module refs:   GPIO_setAsPeripheralModuleFunctionInputPin
+                                                   GPIO_setAsPeripheralModuleFunctionOutputPin
+                                                   GPIO_setOutputHighOnPin
+                                                   GPIO_setOutputLowOnPin
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           GPIO_PORT_TO_BASE       4400 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 76FE - 7729 (0x2c bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_setAsPeripheralModuleFunctionOutputPin
+                                   76FE            System_Clock_Init (board)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 772A - 7755 (0x2c bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_setAsPeripheralModuleFunctionInputPin
+                                   772A            IIC_Init (iic)
+                                                   System_Clock_Init (board)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 77EA - 780B (0x22 bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_setOutputHighOnPin
+                                   77EA            I2c_Ack (i2c)
+                                                   I2c_NoAck (i2c)
+                                                   I2c_ReadByte (i2c)
+                                                   I2c_SendByte (i2c)
+                                                   I2c_Start (i2c)
+                                                   I2c_Stop (i2c)
+                                                   I2c_WaitAck (i2c)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 77C8 - 77E9 (0x22 bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_setOutputLowOnPin
+                                   77C8            I2c_Ack (i2c)
+                                                   I2c_NoAck (i2c)
+                                                   I2c_ReadByte (i2c)
+                                                   I2c_SendByte (i2c)
+                                                   I2c_Start (i2c)
+                                                   I2c_Stop (i2c)
+                                                   I2c_WaitAck (i2c)
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\i2c.r43
+  PROGRAM MODULE, NAME : i2c
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0220 - 0221 (0x2 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   I2c_ReadByte
+                                                   I2c_Start
+                                                   I2c_WaitAck
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBIN_L               0220 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBIN                    0220 
+           PBIN_H                  0221 
+           PBIN_L                  0220 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2400 - 2401 (0x2 bytes), align: 1
+  Segment part 3.             Intra module refs:   I2c_Ack
+                                                   I2c_NoAck
+                                                   I2c_ReadByte
+                                                   I2c_SendByte
+                                                   I2c_Start
+                                                   I2c_Stop
+                                                   I2c_WaitAck
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           delay_cnt               2400 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70F4 - 7171 (0x7e bytes), align: 1
+  Segment part 6.             Intra module refs:   IIC_Write_One_Byte
+                                                   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_Start               70F4 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6FEC - 7073 (0x88 bytes), align: 1
+  Segment part 7.             Intra module refs:   IIC_Write_One_Byte
+                                                   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_Stop                6FEC 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 69A8 - 6A53 (0xac bytes), align: 1
+  Segment part 8.             Intra module refs:   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_Ack                 69A8 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6B00 - 6BAB (0xac bytes), align: 1
+  Segment part 9.             Intra module refs:   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_NoAck               6B00 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6DA2 - 6E3F (0x9e bytes), align: 1
+  Segment part 10.            Intra module refs:   IIC_Write_One_Byte
+                                                   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_WaitAck             6DA2 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6BAC - 6C57 (0xac bytes), align: 1
+  Segment part 11.            Intra module refs:   IIC_Write_One_Byte
+                                                   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_SendByte            6BAC 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6C58 - 6CFF (0xa8 bytes), align: 1
+  Segment part 12.            Intra module refs:   IIC_read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2c_ReadByte            6C58 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7480 - 74C7 (0x48 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_Write_One_Byte      7480            MpuInit (mpu6050)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7074 - 70F3 (0x80 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_read_Bytes          7074            MpuGetData (mpu6050)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 444E - 444F (0x2 bytes), align: 1
+  Segment part 4.             Intra module refs:   delay_cnt
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\iic.r43
+  PROGRAM MODULE, NAME : iic
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_I
+  Relative segment, address: 2402 - 2405 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   IIC_Init
+                                                   IICreadBytes
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           IIC_Delay_Cnt_Max       2402 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5F12 - 6021 (0x110 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_Init                5F12            MpuInit (mpu6050)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6A54 - 6AFF (0xac bytes), align: 1
+  Segment part 6.             Intra module refs:   IIC_Read_One_Byte2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IICreadBytes            6A54 
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 284A - 284A (0x1 bytes), align: 0
+  Segment part 4.             Intra module refs:   IICreadBytes
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           IICreadBytes::cnt       284A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 780C - 782B (0x20 bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_Read_One_Byte2      780C            MpuInit (mpu6050)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 4450 - 4453 (0x4 bytes), align: 1
+  Segment part 3.             Intra module refs:   IIC_Delay_Cnt_Max
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\imu.r43
+  PROGRAM MODULE, NAME : imu
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 27AC - 27B7 (0xc bytes), align: 1
+  Segment part 2.             Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MPU6050                 27AC            Segment part 6 (mpu6050)
+                                                   TIMER0_B0_ISR (timer)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27B8 - 27C3 (0xc bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Angle                   27B8            TIMER0_B0_ISR (timer)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27C4 - 27C7 (0x4 bytes), align: 1
+  Segment part 4.             Intra module refs:   GetAngle
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           NormAccz                27C4 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27C8 - 27D3 (0xc bytes), align: 1
+  Segment part 5.             Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gravity                 27C8 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27D4 - 27DF (0xc bytes), align: 1
+  Segment part 6.             Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Acc                     27D4 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27E0 - 27EB (0xc bytes), align: 1
+  Segment part 7.             Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gyro                    27E0 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27EC - 27F7 (0xc bytes), align: 1
+  Segment part 8.             Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           AccGravity              27EC 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 27F8 - 2803 (0xc bytes), align: 1
+  Segment part 9.             Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GyroIntegError          27F8 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2406 - 2409 (0x4 bytes), align: 1
+  Segment part 10.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           KpDef                   2406 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 240A - 240D (0x4 bytes), align: 1
+  Segment part 12.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           KiDef                   240A 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 240E - 241D (0x10 bytes), align: 1
+  Segment part 14.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NumQ                    240E 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2804 - 2807 (0x4 bytes), align: 1
+  Segment part 16.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           q0_t                    2804 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2808 - 280B (0x4 bytes), align: 1
+  Segment part 17.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           q1_t                    2808 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 280C - 280F (0x4 bytes), align: 1
+  Segment part 18.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           q2_t                    280C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2810 - 2813 (0x4 bytes), align: 1
+  Segment part 19.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           q3_t                    2810 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2814 - 2817 (0x4 bytes), align: 1
+  Segment part 20.            Intra module refs:   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NormQuat                2814 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 499C - 540B (0xa70 bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetAngle                499C            TIMER0_B0_ISR (timer)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 4454 - 4457 (0x4 bytes), align: 1
+  Segment part 11.            Intra module refs:   KpDef
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 4458 - 445B (0x4 bytes), align: 1
+  Segment part 13.            Intra module refs:   KiDef
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 445C - 446B (0x10 bytes), align: 1
+  Segment part 15.            Intra module refs:   NumQ
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\kalman.r43
+  PROGRAM MODULE, NAME : kalman
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6836 - 68F1 (0xbc bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           kalman_1                6836            MpuGetData (mpu6050)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\lcd_b.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\ldopwr.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\led.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\main.r43
+  PROGRAM MODULE, NAME : main
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 71EA - 7243 (0x5a bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    71EA            Segment part 27 (?cstart)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: 4448 - 444C (0x5 bytes), align: 0
+  Segment part 2.             Intra module refs:   main
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\motor.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\mpu6050.r43
+  PROGRAM MODULE, NAME : mpu6050
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 2818 - 2823 (0xc bytes), align: 1
+  Segment part 4.             Intra module refs:   MpuGetData
+                                                   MpuGetOffset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MpuOffset               2818 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 241E - 241F (0x2 bytes), align: 1
+  Segment part 5.             Intra module refs:   MpuGetData
+                                                   MpuGetOffset
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pMpu                    241E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 669E - 676B (0xce bytes), align: 1
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MpuInit                 669E            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 56E6 - 583D (0x158 bytes), align: 1
+  Segment part 11.            Intra module refs:   MpuGetOffset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MpuGetData              56E6            TIMER0_B0_ISR (timer)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2420 - 2467 (0x48 bytes), align: 1
+  Segment part 7.             Intra module refs:   MpuGetData
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           MpuGetData{2}{3}{4}{5}{6}::ekf
+                                   2420 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2824 - 282F (0xc bytes), align: 1
+  Segment part 9.             Intra module refs:   MpuGetData
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           MpuGetData{2}{3}{7}{8}::tBuff
+                                   2824 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 540C - 5581 (0x176 bytes), align: 1
+  Segment part 12.            Intra module refs:   MpuInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MpuGetOffset            540C 
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 446C - 446D (0x2 bytes), align: 1
+  Segment part 6.             Intra module refs:   pMpu
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 446E - 44B5 (0x48 bytes), align: 1
+  Segment part 8.             Intra module refs:   MpuGetData{2}{3}{4}{5}{6}::ekf
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\mpu60502.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\mpy32.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\myMath.r43
+  PROGRAM MODULE, NAME : myMath
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_C
+  Relative segment, address: 441C - 441F (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RtA                     441C            GetAngle (imu)
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: 4420 - 4423 (0x4 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gyro_G                  4420            GetAngle (imu)
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: 4424 - 4427 (0x4 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gyro_Gr                 4424            GetAngle (imu)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6F60 - 6FEB (0x8c bytes), align: 1
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Q_rsqrt                 6F60            GetAngle (imu)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\nrf24l01.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\oa.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\pmap.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\pmm.r43
+  PROGRAM MODULE, NAME : pmm
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 621A - 630D (0xf4 bytes), align: 1
+  Segment part 33.            Intra module refs:   PMM_setVCore
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMM_setVCoreUp          621A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 68F2 - 69A7 (0xb6 bytes), align: 1
+  Segment part 34.            Intra module refs:   PMM_setVCore
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMM_setVCoreDown        68F2 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 739C - 73E9 (0x4e bytes), align: 1
+  Segment part 35.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMM_setVCore            739C            System_Clock_Init (board)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\port_int.r43
+  PROGRAM MODULE, NAME : port_int
+
+  SEGMENTS IN THE MODULE
+  ======================
+ISR_CODE
+  Relative segment, address: 480A - 480B (0x2 bytes), align: 1
+  Segment part 4.             Intra module refs:   Port_1::??INTVEC 94
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Port_1                  480A 
+               interrupt function
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 480C - 480D (0x2 bytes), align: 1
+  Segment part 5.             Intra module refs:   Port_2::??INTVEC 84
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Port_2                  480C 
+               interrupt function
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFD5 (0x56 bytes), align: 1
+  Segment part 1. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Port_2::??INTVEC 84     FFD4 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFDF (0x60 bytes), align: 1
+  Segment part 2. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Port_1::??INTVEC 94     FFDE 
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\ram.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\ref.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\rtc_a.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\rtc_b.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\rtc_c.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\sd24_b.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\sfr.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\sysctl.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\tec.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\timer.r43
+  PROGRAM MODULE, NAME : timer
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 284B - 284B (0x1 bytes), align: 0
+  Segment part 5.             Intra module refs:   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Loop_100_Hz_Flag        284B 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 284C - 284C (0x1 bytes), align: 0
+  Segment part 6.             Intra module refs:   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Loop_50_Hz_Flag         284C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 284D - 284D (0x1 bytes), align: 0
+  Segment part 7.             Intra module refs:   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Loop_10_Hz_Flag         284D 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 284E - 284E (0x1 bytes), align: 0
+  Segment part 8.             Intra module refs:   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Loop_5_Hz_Flag          284E 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 284F - 284F (0x1 bytes), align: 0
+  Segment part 9.             Intra module refs:   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           blEnInterupt            284F 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2830 - 2837 (0x8 bytes), align: 1
+  Segment part 10.            Intra module refs:   TIMER0_B0_ISR
+                                                   delay_ms
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           System_ms_Cnt           2830 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 75CA - 7601 (0x38 bytes), align: 1
+  Segment part 36.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_B0_Init_ms_Interrupt
+                                   75CA            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7436 - 747F (0x4a bytes), align: 1
+  Segment part 39.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           delay_ms                7436            MpuGetOffset (mpu6050)
+                                                   MpuInit (mpu6050)
+                                                   main (main)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2838 - 283F (0x8 bytes), align: 1
+  Segment part 22.            Intra module refs:   delay_ms
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           delay_ms::StartCntVal   2838 
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 480E - 481B (0xe bytes), align: 1
+  Segment part 45.            Intra module refs:   TIMER0_A0_ISR::??INTVEC 106
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER0_A0_ISR           480E 
+               interrupt function
+               calls direct
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 481C - 48F7 (0xdc bytes), align: 1
+  Segment part 46.            Intra module refs:   TIMER0_B0_ISR::??INTVEC 118
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER0_B0_ISR           481C 
+               interrupt function
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2850 - 2850 (0x1 bytes), align: 0
+  Segment part 28.            Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Loop_100_Hz_Cnt
+                                   2850 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2851 - 2851 (0x1 bytes), align: 0
+  Segment part 29.            Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Loop_50_Hz_Cnt
+                                   2851 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2852 - 2852 (0x1 bytes), align: 0
+  Segment part 30.            Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Loop_10_Hz_Cnt
+                                   2852 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2853 - 2853 (0x1 bytes), align: 0
+  Segment part 31.            Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Loop_5_Hz_Cnt
+                                   2853 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2854 - 2854 (0x1 bytes), align: 0
+  Segment part 32.            Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Loop_6_ms_Cnt
+                                   2854 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2855 - 2855 (0x1 bytes), align: 0
+  Segment part 33.            Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Loop_3_ms_Cnt
+                                   2855 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFEB (0x6c bytes), align: 1
+  Segment part 1. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER0_A0_ISR::??INTVEC 106
+                                   FFEA 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFF7 (0x78 bytes), align: 1
+  Segment part 2. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER0_B0_ISR::??INTVEC 118
+                                   FFF6 
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\timer_a.r43
+  PROGRAM MODULE, NAME : timer_a
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7994 - 799B (0x8 bytes), align: 1
+  Segment part 23.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_A_clearTimerInterrupt
+                                   7994            TIMER0_A0_ISR (timer)
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\timer_b.r43
+  PROGRAM MODULE, NAME : timer_b
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7172 - 71E9 (0x78 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_B_initUpMode      7172            Timer_B0_Init_ms_Interrupt (timer)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 79B4 - 79BB (0x8 bytes), align: 1
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_B_clearTimerInterrupt
+                                   79B4            TIMER0_B0_ISR (timer)
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\timer_d.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\tlv.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\twi_master.r43
+  PROGRAM MODULE, NAME : twi_master
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 05E0 - 05E1 (0x2 bytes), align: 0
+  Segment part 1. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB0CTLW0_L          05E0 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB0CTLW0               05E0 
+           UCB0CTLW0_H             05E1 
+           UCB0CTLW0_L             05E0 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05EC - 05EC (0x1 bytes), align: 0
+  Segment part 2. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB0RXBUF               05EC 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05EE - 05EE (0x1 bytes), align: 0
+  Segment part 3. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB0TXBUF               05EE 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05F2 - 05F3 (0x2 bytes), align: 0
+  Segment part 4. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB0I2CSA_L          05F2 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB0I2CSA               05F2 
+           UCB0I2CSA_H             05F3 
+           UCB0I2CSA_L             05F2 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05FC - 05FD (0x2 bytes), align: 0
+  Segment part 5. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB0ICTL_L           05FC 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB0ICTL                05FC 
+           UCB0ICTL_H              05FD 
+           UCB0ICTL_L              05FC 
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\ucs.r43
+  PROGRAM MODULE, NAME : ucs
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 2840 - 2843 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   UCS_setExternalClockSource
+                                                   privateUCSComputeCLKFrequency
+                                                   privateUCSSourceClockFromDCO
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateXT1ClockFrequency
+                                   2840 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2844 - 2847 (0x4 bytes), align: 1
+  Segment part 3.             Intra module refs:   UCS_setExternalClockSource
+                                                   privateUCSComputeCLKFrequency
+                                                   privateUCSSourceClockFromDCO
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateXT2ClockFrequency
+                                   2844 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 583E - 5983 (0x146 bytes), align: 1
+  Segment part 4.             Intra module refs:   privateUCSComputeCLKFrequency
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateUCSSourceClockFromDCO
+                                   583E 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6022 - 6121 (0x100 bytes), align: 1
+  Segment part 5.             Intra module refs:   UCS_getACLK
+                                                   UCS_getMCLK
+                                                   UCS_getSMCLK
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateUCSComputeCLKFrequency
+                                   6022 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 78DA - 78EB (0x12 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_setExternalClockSource
+                                   78DA            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 65CE - 669D (0xd0 bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_initClockSignal     65CE            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7602 - 7637 (0x36 bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_turnOnLFXT1         7602            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7638 - 766B (0x34 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_turnOnXT2           7638            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7590 - 75C9 (0x3a bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_initFLLSettle       7590            System_Clock_Init (board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 63FC - 64E5 (0xea bytes), align: 1
+  Segment part 20.            Intra module refs:   UCS_initFLLSettle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_initFLL             63FC 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 79BC - 79C1 (0x6 bytes), align: 1
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_turnOnSMCLK         79BC            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7756 - 777F (0x2a bytes), align: 1
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_getACLK             7756            IIC_Init (iic)
+                                                   System_Clock_Init (board)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7780 - 77A3 (0x24 bytes), align: 1
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_getSMCLK            7780            IIC_Init (iic)
+                                                   System_Clock_Init (board)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 786A - 7887 (0x1e bytes), align: 1
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_getMCLK             786A            System_Clock_Init (board)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\usart.r43
+  PROGRAM MODULE, NAME : usart
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 05CE - 05CE (0x1 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   U1_UCA0_Send
+                                                   USCI_A0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA0TXBUF               05CE 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 060E - 060E (0x1 bytes), align: 0
+  Segment part 2. ROOT        Intra module refs:   USCI_A1_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA1TXBUF               060E 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2468 - 25FD (0x196 bytes), align: 1
+  Segment part 6.             Intra module refs:   U1_UCA0_Send
+                                                   USCI_A0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Usart1                  2468 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 25FE - 2793 (0x196 bytes), align: 1
+  Segment part 8.             Intra module refs:   USCI_A1_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Usart2                  25FE 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5AB4 - 5BCF (0x11c bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U1_UCA0_Init            5AB4            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 750E - 754F (0x42 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U1_UCA0_Send            750E            TIMER0_B0_ISR (timer)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5BD0 - 5CE9 (0x11a bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U2_UCA1_Init            5BD0            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 48F8 - 4949 (0x52 bytes), align: 1
+  Segment part 14.            Intra module refs:   USCI_A0_ISR::??INTVEC 112
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A0_ISR             48F8 
+               interrupt function
+               calls direct
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 494A - 499B (0x52 bytes), align: 1
+  Segment part 15.            Intra module refs:   USCI_A1_ISR::??INTVEC 92
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A1_ISR             494A 
+               interrupt function
+               calls direct
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFDD (0x5e bytes), align: 1
+  Segment part 3. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A1_ISR::??INTVEC 92
+                                   FFDC 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFF1 (0x72 bytes), align: 1
+  Segment part 4. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A0_ISR::??INTVEC 112
+                                   FFF0 
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 44B6 - 464B (0x196 bytes), align: 1
+  Segment part 7.             Intra module refs:   Usart1
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 464C - 47E1 (0x196 bytes), align: 1
+  Segment part 9.             Intra module refs:   Usart2
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\usci_a_spi.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\usci_a_uart.r43
+  PROGRAM MODULE, NAME : usci_a_uart
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 676C - 6835 (0xca bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A_UART_init        676C            U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 782C - 784B (0x20 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A_UART_enableInterrupt
+                                   782C            U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 798A - 7993 (0xa bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A_UART_getInterruptStatus
+                                   798A            USCI_A0_ISR (usart)
+                                                   USCI_A1_ISR (usart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7946 - 7951 (0xc bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A_UART_clearInterrupt
+                                   7946            USCI_A0_ISR (usart)
+                                                   USCI_A1_ISR (usart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 799C - 79A3 (0x8 bytes), align: 1
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A_UART_enable      799C            U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\usci_b_i2c.r43
+  PROGRAM MODULE, NAME : usci_b_i2c
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7550 - 758F (0x40 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_initMaster   7550            IIC_Init (iic)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 79A4 - 79AB (0x8 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_enable       79A4            IIC_Init (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 791E - 792B (0xe bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_setSlaveAddress
+                                   791E            IICreadBytes (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 793A - 7945 (0xc bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_disableInterrupt
+                                   793A            IIC_Init (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7980 - 7989 (0xa bytes), align: 1
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_getInterruptStatus
+                                   7980            IICreadBytes (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7244 - 729B (0x58 bytes), align: 1
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_masterSendMultiByteStartWithTimeout
+                                   7244            IICreadBytes (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 78FE - 790D (0x10 bytes), align: 1
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_masterReceiveMultiByteStart
+                                   78FE            IICreadBytes (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 79AC - 79B3 (0x8 bytes), align: 1
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_masterReceiveMultiByteNext
+                                   79AC            IICreadBytes (iic)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 729C - 72F3 (0x58 bytes), align: 1
+  Segment part 32.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_B_I2C_masterReceiveMultiByteFinishWithTimeout
+                                   729C            IICreadBytes (iic)
+
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\usci_b_spi.r43
+    *************************************************************************
+
+  FILE NAME : G:\MSP430_and_F150_Textbook\附件目录\4.实验代码\实验6 陀螺仪姿态显示实验\Debug\Obj\wdt_a.r43
+  PROGRAM MODULE, NAME : wdt_a
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 784C - 7869 (0x1e bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WDT_A_hold              784C            System_Clock_Init (board)
+
+    *************************************************************************
+
+  FILE NAME : G:\IAR_For_MSP430\430\lib\dlib\dl430xlsfn.r43
+  LIBRARY MODULE, NAME : ?__dbg_break
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 79CE - 79CF (0x2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __DebugBreak            79CE            __exit (?__exit)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 78A0 - 78B3 (0x14 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  78A0            Segment part 6 (?_exit)
+                                                   _exit (?_exit)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?asin
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6D00 - 6DA1 (0xa2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           asin                    6D00            GetAngle (imu)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 795E - 7969 (0xc bytes), align: 1
+  Segment part 3.             Intra module refs:   asin
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7952 - 795D (0xc bytes), align: 1
+  Segment part 4.             Intra module refs:   asin
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?atan2f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 64E6 - 65CD (0xe8 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           atan2f                  64E6            GetAngle (imu)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?_exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 79CA, align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   79CA            exit (?exit)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 79CA - 79CD (0x4 bytes), align: 1
+  Segment part 6.             Intra module refs:   _exit
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?cstart
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTACK
+  Relative segment, address: 4360, align: 1
+  Segment part 1.
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2848, align: 1
+  Segment part 2.
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2794, align: 1
+  Segment part 3.
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 47E2, align: 1
+  Segment part 4.
+    -------------------------------------------------------------------------
+CODE_I
+  Relative segment, address: 2856, align: 1
+  Segment part 5.
+    -------------------------------------------------------------------------
+CODE_ID
+  Relative segment, address: 79D0, align: 1
+  Segment part 6.
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 2856, align: 1
+  Segment part 7.
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 2856, align: 1
+  Segment part 8.
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 79D0, align: 1
+  Segment part 9.
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 79D0, align: 1
+  Segment part 10.
+    -------------------------------------------------------------------------
+DATA20_N
+  Relative segment, address: 2856, align: 1
+  Segment part 12.
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 47E2 - 47E5 (0x4 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         47E2            ?reset_vector (?reset_vector)
+                                                   Absolute parts (?ABS_ENTRY_MOD)
+           ?cstart_begin           47E2 
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 47E6 - 47F1 (0xc bytes), align: 1
+  Segment part 20.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_zero       47E6            Acc (imu)
+                                                   AccGravity (imu)
+                                                   Angle (imu)
+                                                   Clk_ACLK (board)
+                                                   Clk_MCLK (board)
+                                                   Clk_SMCLK (board)
+                                                   Gravity (imu)
+                                                   Gyro (imu)
+                                                   GyroIntegError (imu)
+                                                   IICreadBytes::cnt (iic)
+                                                   Loop_100_Hz_Flag (timer)
+                                                   Loop_10_Hz_Flag (timer)
+                                                   Loop_50_Hz_Flag (timer)
+                                                   Loop_5_Hz_Flag (timer)
+                                                   MPU6050 (imu)
+                                                   MpuGetData{2}{3}{7}{8}::tBuff (mpu6050)
+                                                   MpuOffset (mpu6050)
+                                                   NormAccz (imu)
+                                                   NormQuat (imu)
+                                                   System_ms_Cnt (timer)
+                                                   TIMER0_B0_ISR::Loop_100_Hz_Cnt (timer)
+                                                   TIMER0_B0_ISR::Loop_10_Hz_Cnt (timer)
+                                                   TIMER0_B0_ISR::Loop_3_ms_Cnt (timer)
+                                                   TIMER0_B0_ISR::Loop_50_Hz_Cnt (timer)
+                                                   TIMER0_B0_ISR::Loop_5_Hz_Cnt (timer)
+                                                   TIMER0_B0_ISR::Loop_6_ms_Cnt (timer)
+                                                   __iar_Errno (?errno)
+                                                   blEnInterupt (timer)
+                                                   delay_ms::StartCntVal (timer)
+                                                   privateXT1ClockFrequency (ucs)
+                                                   privateXT2ClockFrequency (ucs)
+                                                   q0_t (imu)
+                                                   q1_t (imu)
+                                                   q2_t (imu)
+                                                   q3_t (imu)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 47F2 - 4801 (0x10 bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_copy       47F2            IIC_Delay_Cnt_Max (iic)
+                                                   KiDef (imu)
+                                                   KpDef (imu)
+                                                   MpuGetData{2}{3}{4}{5}{6}::ekf (mpu6050)
+                                                   NumQ (imu)
+                                                   Usart1 (usart)
+                                                   Usart2 (usart)
+                                                   delay_cnt (i2c)
+                                                   pMpu (mpu6050)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 4802 - 4809 (0x8 bytes), align: 1
+  Segment part 27.            Intra module refs:   Segment part 15
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_call_main       4802 
+           ?cstart_end             480A 
+    -------------------------------------------------------------------------
+CODE_ID
+  Relative segment, address: 79D0, align: 1
+  Segment part 28.            Intra module refs:   Segment part 5
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?reset_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+RESET
+  Relative segment, address: FFFE - FFFF (0x2 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?reset_vector           FFFE            Segment part 15 (?cstart)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?errno
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 2848 - 2849 (0x2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Errno             2848            asin (?asin)
+                                                   sqrt (?sqrt)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 79C2 - 79C5 (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    79C2            Segment part 27 (?cstart)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Mul32fHw32
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 5CEA - 5DFF (0x116 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul32fHw32             5CEA            GetAngle (imu)
+                                                   IIC_Init (iic)
+                                                   MpuGetData (mpu6050)
+                                                   Q_rsqrt (myMath)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+                                                   __iar_Atan (?xatan)
+                                                   asin (?asin)
+                                                   kalman_1 (kalman)
+                                                   sqrt (?sqrt)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Cast32f32i
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6E40 - 6E53 (0x14 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32sto32f           6E40            GetAngle (imu)
+                                                   MpuGetData (mpu6050)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6E54 - 6ED1 (0x7e bytes), align: 1
+  Segment part 1.             Intra module refs:   _Cast32sto32f
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32uto32f           6E54            IIC_Init (iic)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Cast32fto32u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 796A - 7975 (0xc bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32fto32u           796A            IIC_Init (iic)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Cast32fto32s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 766C - 769D (0x32 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32fto32s           766C            MpuGetData (mpu6050)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_Extract
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 73EA - 7435 (0x4c bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_Extract            73EA            _Cast32fto32s (_Cast32fto32s)
+                                                   _Cast32fto32u (_Cast32fto32u)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_GE
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 72F4 - 7349 (0x56 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_GE                 72F4            GetAngle (imu)
+                                                   __iar_Atan (?xatan)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_LT
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 734A - 739B (0x52 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_LT                 734A            GetAngle (imu)
+                                                   __iar_Atan (?xatan)
+                                                   asin (?asin)
+                                                   atan2f (?atan2f)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Div32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 5984 - 5AB3 (0x130 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Div32f                 5984            IIC_Init (iic)
+                                                   Segment part 5 (?sqrt)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+                                                   __iar_Atan (?xatan)
+                                                   asin (?asin)
+                                                   atan2f (?atan2f)
+                                                   kalman_1 (kalman)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Add32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 5582 - 5585 (0x4 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Sub32f                 5582            GetAngle (imu)
+                                                   MpuGetData (mpu6050)
+                                                   Q_rsqrt (myMath)
+                                                   Segment part 4 (?asin)
+                                                   U1_UCA0_Init (usart)
+                                                   U2_UCA1_Init (usart)
+                                                   kalman_1 (kalman)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5586 - 56E5 (0x160 bytes), align: 1
+  Segment part 1.             Intra module refs:   _Sub32f
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Add32f                 5586            GetAngle (imu)
+                                                   MpuGetData (mpu6050)
+                                                   Segment part 3 (?asin)
+                                                   Segment part 4 (?sqrt)
+                                                   __iar_Atan (?xatan)
+                                                   kalman_1 (kalman)
+                                                   sqrt (?sqrt)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7888 - 789F (0x18 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod16u              7888            ?DivMod16s (?DivMod816s)
+                                                   privateUCSComputeCLKFrequency (ucs)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 769E - 76CD (0x30 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod16s              769E            privateUCSComputeCLKFrequency (ucs)
+                                                   sqrt (?sqrt)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod32u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 76CE - 76FD (0x30 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod32u              76CE            USCI_B_I2C_initMaster (usci_b_i2c)
+                                                   privateUCSComputeCLKFrequency (ucs)
+                                                   privateUCSSourceClockFromDCO (ucs)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 78C8 - 78D9 (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  78C8            __data16_memcpy (?memzero)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memset
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 78EC - 78FD (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memset                  78EC            MpuGetOffset (mpu6050)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memzero
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 790E - 791D (0x10 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memzero        790E            ?cstart_init_zero (?cstart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 79C6 - 79C9 (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memcpy         79C6            ?cstart_init_copy (?cstart)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?sqrt
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 630E - 63FB (0xee bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           sqrt                    630E            asin (?asin)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7976 - 797F (0xa bytes), align: 1
+  Segment part 3.             Intra module refs:   sqrt
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 792C - 7939 (0xe bytes), align: 1
+  Segment part 4.             Intra module refs:   sqrt
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 78B4 - 78C7 (0x14 bytes), align: 1
+  Segment part 5.             Intra module refs:   sqrt
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xatan
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_C
+  Relative segment, address: 4428 - 4447 (0x20 bytes), align: 1
+  Segment part 2.             Intra module refs:   __iar_Atan
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5E00 - 5F11 (0x112 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Atan              5E00            asin (?asin)
+                                                   atan2f (?atan2f)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdscale
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6ED2 - 6F5F (0x8e bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dscale            6ED2            sqrt (?sqrt)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdtest
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 77A4 - 77C7 (0x24 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dtest             77A4            atan2f (?atan2f)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdunscal
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 74C8 - 750D (0x46 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dunscale          74C8            sqrt (?sqrt)
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              0220 - 0221               2   rel    0
+                                       05CE - 05CE               1 
+                                       05E0 - 05E1               2 
+                                       05EC - 05EC               1 
+                                       05EE - 05EE               1 
+                                       05F2 - 05F3               2 
+                                       05FC - 05FD               2 
+                                       060E - 060E               1 
+DATA16_I                               2400 - 2793             394   rel    1
+DATA16_Z                               2794 - 2855              C2   rel    1
+CODE_I                                    2856                       rel    1
+DATA20_Z                                  2856                       rel    1
+DATA20_I                                  2856                       rel    1
+DATA20_N                                  2856                       rel    1
+CSTACK                                 4360 - 43FF              A0   rel    1
+DATA16_C                               4400 - 444C              4D   rel    1
+DATA16_ID                              444E - 47E1             394   rel    1
+CSTART                                 47E2 - 4809              28   rel    1
+ISR_CODE                               480A - 499B             192   rel    1
+<CODE> 1                               499C - 79CF            3034   rel    1
+CODE_ID                                   79D0                       rel    1
+DATA20_C                                  79D0                       rel    1
+DATA20_ID                                 79D0                       rel    1
+INTVEC                                 FF80 - FFF7              78   com    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 12 904 bytes of CODE  memory
+  1 270 bytes of DATA  memory (+ 12 absolute )
+    993 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
